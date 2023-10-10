@@ -23,6 +23,8 @@ Number systems form the core of all computational processes. They provide a stru
 
 This article aims to provide a comprehensive understanding of the different number systems used in computing, focusing on binary, decimal, and hexadecimal systems, along with a brief introduction to floating-point representation. Through exploring the conversion between these systems and their application in arithmetic operations, readers will gain insight into the fundamental computational processes that underpin modern digital systems.
 
+---
+
 # II. Understanding Number Systems
 
 ## Introduction to Number Systems
@@ -89,6 +91,8 @@ In computing, numbers can be represented in various bases or number systems. The
 ## Conclusion
 
 Understanding the number systems and how they are represented and manipulated in computing is fundamental for anyone delving into the computer science and engineering fields. This knowledge forms the basis for understanding more complex computational concepts and operations.
+
+---
 
 # III. Binary Arithmetic Operations
 
@@ -174,6 +178,8 @@ Binary arithmetic is fundamental in computing as it forms the basis of numerical
 
 Binary arithmetic operations form the core of computation in digital systems. Understanding these operations is vital for anyone looking to delve deeper into computer science and digital design. Through mastering binary addition, subtraction, multiplication, and division, one can gain a solid foundation for exploring more complex computational concepts and digital system designs.
 
+---
+
 # IV. Computer Representation of Numbers
 
 ## Introduction
@@ -237,6 +243,8 @@ Computers use a variety of methods to represent numbers, characters, and other t
 ## Conclusion
 
 Understanding the computer representation of numbers is foundational to computer science and engineering. This knowledge is crucial for programming, data processing, and the development of algorithms and data structures. The precision and efficiency of number representation directly impact the performance and accuracy of computational processes, making this a critical area of study and application in the computing field.
+
+---
 
 # V. Two’s Complement and Negative Numbers
 
@@ -304,6 +312,8 @@ Overflow occurs when a calculation yields a result outside the range of represen
 ## Conclusion
 
 The two’s complement system is an elegant method for representing and manipulating negative numbers in binary form. Its ability to simplify arithmetic operations, combined with its efficiency in hardware implementation, makes it a fundamental concept in computer science and digital design. Understanding two’s complement representation is crucial for anyone working with digital systems and aiming to grasp more advanced computational concepts.
+
+---
 
 # VI. Advanced Concepts in Floating-Point Arithmetic
 
@@ -382,6 +392,8 @@ Floating-point arithmetic is a method used to represent real numbers in computin
 
 Mastering the intricacies of floating-point arithmetic, understanding the IEEE 754 standard, and being aware of the pitfalls and performance implications are essential for anyone working with numerical computations in a computer science or engineering domain. The advanced concepts presented here provide a deeper insight into floating-point arithmetic, offering a solid foundation for tackling complex computational challenges.
 
+---
+
 # VII. Real-world Implications of Binary Arithmetic
 
 ## Introduction
@@ -439,6 +451,8 @@ Binary arithmetic, the basic form of arithmetic in computing and digital logic, 
 ## Conclusion
 
 Binary arithmetic is fundamental to the digital world, influencing various aspects of modern life. The understanding and application of binary arithmetic are crucial for leveraging the benefits of digital technology, addressing contemporary challenges, and fostering innovation for a better future.
+
+---
 
 # VIII. Further Reading
 
