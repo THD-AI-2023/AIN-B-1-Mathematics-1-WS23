@@ -1,15 +1,17 @@
 # Summary: Elementary Set Theory and Logic (WS 2023-24)
 
+> Note❗ Markdown mathJax doesn't support `{}`, so for now it is `[]`
+
 ## Sets
 - **Definition**: Sets are fundamental objects of mathematics and cannot be defined in terms of simpler objects.
 - **Notations**:
   - **Element of a set**: $x \in S$
   - **Subset**: $T \subseteq S$
-  - **Enumeration**: $\{x_1, x_2, ... , x_n\}$
-  - **Set comprehension**: $\{x | x \in S, P(x)\}$
+  - **Enumeration**: $[x_1, x_2, ... , x_n]$
+  - **Set comprehension**: $[x | x \in S, P(x)]$
 - **Important Sets**:
   - Empty set: $\emptyset$
-  - Natural numbers: $N = \{0, 1, 2, 3, ...\}$
+  - Natural numbers: $N = [0, 1, 2, 3, ...]$
   - Integers: $Z$
   - Rational numbers: $Q$
   - Real numbers: $R$
@@ -60,13 +62,13 @@ Sets are the most fundamental objects of mathematics. As such, it is impossible 
 #### Notation 1.
 - Let $S$ be a set. We write $x \in S$ to denote that $x$ is an **element of $S$**, and $x \notin S$ to denote that $x$ is not an element of $S$.
 - Let $S$ and $T$ be sets. We write $T \subseteq S$ to denote that $T$ is a **subset of $S$**, i.e., every element of $T$ is also element of $S$.
-- Let $S$ be a set and $x_1, x_2, ..., x_n$ be elements of $S$. Then $\{x_1, x_2, ... , x_n\}$ denotes the set that comprises exactly these elements (enumeration notation).
-- Let $S$ be a set and $P$ a family of statements indexed with elements from $S$. Then $\{x | x \in S, P(x)\}$ denotes the subset of elements of $S$ having the property $P$. This notation is called **set comprehension**.
+- Let $S$ be a set and $x_1, x_2, ..., x_n$ be elements of $S$. Then $[x_1, x_2, ... , x_n]$ denotes the set that comprises exactly these elements (enumeration notation).
+- Let $S$ be a set and $P$ a family of statements indexed with elements from $S$. Then $[x | x \in S, P(x)]$ denotes the subset of elements of $S$ having the property $P$. This notation is called **set comprehension**.
 
 #### Remark 1.
 The set comprehension is used only to select subsets of a given set. Unrestrictive use leads to confusion. Consider the Russell set:
 
-$R = \{sets S | S \notin S\}$
+$R = [sets S | S \notin S]$
 
 and the question whether $R \in R$ or not.
 
@@ -75,34 +77,34 @@ We shall use the following notation for important sets:
 1. The **empty set** will be denoted by $\emptyset$
 2. The set of **natural numbers** will be denoted by $N$:
 
-$N = \{0, 1, 2, 3, ...\}$
+$N = [0, 1, 2, 3, ...]$
 
 3. The set of integers will be denoted by Z:
 
-$Z = \{ ..., -2, -1, 0, 1, 2, ... \}$
+$Z = [ ..., -2, -1, 0, 1, 2, ... ]$
 
 4. The set of **rational numbers** will be denoted by $Q$:
 
-$Q = \{ \frac{m}{n} \mid m, n \in \mathbb{Z}, n > 0 \}$
+$Q = [ \frac{m}{n} \mid m, n \in \mathbb{Z}, n > 0 ]$
 
 5. The set of **real numbers** will be denoted by $R$. It contains all the numbers with a decimal expansion.
 
 6. The set of **complex numbers** will be denoted by $C$:
 
-$C = \{ x + yi \, |\, x, y \in R \}$
+$C = [ x + yi \, |\, x, y \in R ]$
 
 where $i = \sqrt{-1}$.
 
 7. Let $a, b \in R$. **Intervals** will be denoted by:
 
-$(a,b) = \{ x \in R \, |\, a < x < b \}$ 
-$[a,b) = \{ x \in R \, |\, a \leq x < b \}$ 
-$(a,b] = \{ x \in R \, |\, a < x \leq b \}$ 
-$[a,b] = \{ x \in R \, |\, a \leq x \leq b \}$ 
-$(a,\infty) = \{ x \in R \, |\, a < x \}$ 
-$[a,\infty) = \{ x \in R \, |\, a \leq x \}$ 
-$(-\infty,b) = \{ x \in R \, |\, x < b \}$ 
-$(-\infty,b] = \{ x \in R \, |\, x \leq b \}$
+$(a,b) = [ x \in R \, |\, a < x < b ]$ 
+$[a,b) = [ x \in R \, |\, a \leq x < b ]$ 
+$(a,b] = [ x \in R \, |\, a < x \leq b ]$ 
+$[a,b] = [ x \in R \, |\, a \leq x \leq b ]$ 
+$(a,\infty) = [ x \in R \, |\, a < x ]$ 
+$[a,\infty) = [ x \in R \, |\, a \leq x ]$ 
+$(-\infty,b) = [ x \in R \, |\, x < b ]$ 
+$(-\infty,b] = [ x \in R \, |\, x \leq b ]$
 
 #### Remark 2.
 - For any set $S$, we have $\emptyset \subseteq S$
@@ -185,31 +187,31 @@ It follows that
 $X = Y \iff (X \subseteq Y \, \text{and} \, Y \subseteq X)$
 
 ### Definition 4. (Operations on sets)
-1. **union**: $X \cup Y = \{ x | x \in S, x \in X \text{ or } x \in Y \}$
-2. **intersection**: $X \cap Y = \{ x | x \in S, x \in X \text{ and } x \in Y \}$
-3. **difference**: $X \setminus Y = \{ x | x \in S, x \in X \text{ and not } x \in Y \}$
-4. **complement**: $X^c = \{ x | x \in S, x \notin X \}$
+1. **union**: $X \cup Y = [ x | x \in S, x \in X \text{ or } x \in Y ]$
+2. **intersection**: $X \cap Y = [ x | x \in S, x \in X \text{ and } x \in Y ]$
+3. **difference**: $X \setminus Y = [ x | x \in S, x \in X \text{ and not } x \in Y ]$
+4. **complement**: $X^c = [ x | x \in S, x \notin X ]$
 5. **symmetric difference**: $X \Delta Y = X \setminus Y \cup Y \setminus X$
-6. **power set**: $P(X) = \{ Y | Y \subseteq X \}$
+6. **power set**: $P(X) = [ Y | Y \subseteq X ]$
 
 Alternatively:
 
 $Y \in P(X) \iff Y \subseteq X$
 
-7. **cartesian product:** $X \times Y = \{(x, y) \mid x \in X, y \in Y\}$
-8. **disjoint union:** $X \sqcup Y = \{(x, 0) \mid x \in X\} \cup \{(y, 1) \mid y \in Y\}$
+7. **cartesian product:** $X \times Y = [(x, y) \mid x \in X, y \in Y]$
+8. **disjoint union:** $X \sqcup Y = [(x, 0) \mid x \in X] \cup [(y, 1) \mid y \in Y]$
 
 ### Sets as Building Blocks
 
 All the operations we have so far need some pre-existing sets to operate on, but all we need to get started is the empty set `{}` or $\varnothing$, and we can create a universe of sets that can be used to represent all mathematical objects that we need.
 
 For example: the natural numbers. We can use the set $\varnothing$ to stand for zero, this will be our first natural number. So $0 = \varnothing$. Then, we could take:
-- $1 = \{\varnothing\}$, that is, 1 has one element, namely the empty set. Note that this means that 1 is not the same set as 0, since 1 has an element, and 0 has none!
-- $2 = \{1\}$, that is, 2 also has only one element, the number 1. 2 is different from 1, because while both have one element each, the two elements are different in each case.
-- $3 = \{2\}$, and so on. In general, we'll have
-    $n + 1 = \{n\}$
+- $1 = [\varnothing]$, that is, 1 has one element, namely the empty set. Note that this means that 1 is not the same set as 0, since 1 has an element, and 0 has none!
+- $2 = [1]$, that is, 2 also has only one element, the number 1. 2 is different from 1, because while both have one element each, the two elements are different in each case.
+- $3 = [2]$, and so on. In general, we'll have
+    $n + 1 = [n]$
 
-This is **recursive definition**. We have a starting point, $0 = \varnothing$, and a recursive clause, $n+1 = \{n\}$ which allows us to determine the set representation of any natural number. Conversely, if we are given a set representing a natural number, we can determine what natural number that is. We can even determine if a given set represents or not a given number, by the following algorithm:
+This is **recursive definition**. We have a starting point, $0 = \varnothing$, and a recursive clause, $n+1 = [n]$ which allows us to determine the set representation of any natural number. Conversely, if we are given a set representing a natural number, we can determine what natural number that is. We can even determine if a given set represents or not a given number, by the following algorithm:
 - Is the set empty? If yes, it represents the number 0.
 - If not, does the set contain more than one element? If so, then it does not represent any natural number.
 - If not, then it must have exactly one element, and the answer is determined by applying the algorithm
@@ -218,19 +220,19 @@ This is **recursive definition**. We have a starting point, $0 = \varnothing$, a
 
 ---
 
-$\{ 2, 3, 5, 7 \}$
-$\{ 2, 3, 2, 5, 7, 2 \}$
+$[ 2, 3, 5, 7 ]$
+$[ 2, 3, 2, 5, 7, 2 ]$
 
 Set Builder Notations:
-$\{ x | x \in S, P(x) \}$
-$\{ x | x \in \mathbb{N}, x \text{ is one of the first four primes } \}$
+$[ x | x \in S, P(x) ]$
+$[ x | x \in \mathbb{N}, x \text{ is one of the first four primes } ]$
 
 ---
 
-- $\{ x | P(x) \}$
+- $[ x | P(x) ]$
 
 Russell's Paradox:
-- $R = \{ S | S \notin S \}$ (Russell def.)
+- $R = [ S | S \notin S ]$ (Russell def.)
 
 - $x \in S$
 
@@ -291,12 +293,12 @@ The relation between sets $X$ and $Y$ can be defined as:
 
 - Inclusion notations:
   - $x \notin \varnothing$ *(Note: This indicates that any element 'x' is not a member of the empty set.)*
-  - $x = \{ \}$ or equivalently $x = \varnothing$
+  - $x = [ ]$ or equivalently $x = \varnothing$
   - $x \neq y$
   - $x \subseteq y$ and $x \not\subseteq y$
-  - $\varnothing = \{ \}$
+  - $\varnothing = [ ]$
   - $\varnothing \subset y$ for any $y$
-  - If $x \in \varnothing$, then $x \subseteq \{ \}$
+  - If $x \in \varnothing$, then $x \subseteq [ ]$
 
 - It seems like there are other mathematical relations and symbols scribbled on the board, but without a clear context or order.
 
@@ -306,12 +308,12 @@ The relation between sets $X$ and $Y$ can be defined as:
 
 - For any element $x$:
   - The statement $x \in \varnothing$ is **false**.
-  - Hence, $x \in \varnothing$ implies $x \in \{ \}$ is **true**.
+  - Hence, $x \in \varnothing$ implies $x \in [ ]$ is **true**.
   
 - Inclusion statements:
   - $\varnothing \subseteq y$
-  - $\{ \} \subseteq \varnothing$
-  - Therefore, $\varnothing = \{ \}$
+  - $[ ] \subseteq \varnothing$
+  - Therefore, $\varnothing = [ ]$
 
 **Transitional Phrases in Mathematical Proofs:**
 
@@ -327,13 +329,13 @@ The relation between sets $X$ and $Y$ can be defined as:
 ## Mathematical Expressions:
 
 1. **Intersection of Sets:**
-   - $X \cap Y = \{ a \mid a \in X \land a \in Y \}$
+   - $X \cap Y = [ a \mid a \in X \land a \in Y ]$
 
 2. **Subset:**
    - $X, Y \subseteq S$
 
 3. **Union of Sets:**
-   - $X \cup Y = \{ a \mid a \in S \land (a \in X \lor a \in Y) \}$
+   - $X \cup Y = [ a \mid a \in S \land (a \in X \lor a \in Y) ]$
 
 4. **Empty Set:**
-   - $\emptyset = \{ x \mid x \neq x \}$
+   - $\emptyset = [ x \mid x \neq x ]$
