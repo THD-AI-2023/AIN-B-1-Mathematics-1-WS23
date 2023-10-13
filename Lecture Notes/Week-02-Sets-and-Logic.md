@@ -49,6 +49,29 @@
 
 ---
 
+- **Navigation:**
+  - [Summary](#summary-elementary-set-theory-and-logic-ws-2023-24)
+    - [Sets](#sets)
+    - [Elementary Logic](#elementary-logic)
+    - [Quantifiers](#quantifiers)
+    - [Operations on Sets](#operations-on-sets)
+  - [Elementary Set Theory and Logic](#elementary-set-theory-and-logic)
+    - [Sets](#sets-1)
+    - [Elementary Logic](#elementary-logic-1)
+    - [Quantifiers](#quantifiers-1)
+    - [Operations on Sets](#operations-on-sets-1)
+    - [Sets as Building Blocks](#sets-as-building-blocks)
+  - [Whiteboard Notes](#whiteboard-notes)
+    - [Set Builder Notations](#set-builder-notations)
+    - [Russell's Paradox](#russells-paradox)
+    - [Set Relations](#set-relations)
+    - [Mathematical Notations](#mathematical-notations)
+    - [Mathematical Statements](#mathematical-statements)
+    - [Mathematical Expressions](#mathematical-expressions)
+  - [Transitional Phrases in Mathematical Proofs](#transitional-phrases-in-mathematical-proofs)
+    
+---
+
 # Elementary Set Theory and Logic
 ## Cezar Ionescu
 ### WS 2023-24
